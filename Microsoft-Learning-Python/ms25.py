@@ -1,6 +1,8 @@
 def print_keyword_args(**kwargs):
 
   print('\n')
+  print(kwargs)
+  print(type(kwargs))
 
   for key, value in kwargs.items():
     print(f'{key} = {value}')
