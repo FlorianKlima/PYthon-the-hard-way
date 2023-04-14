@@ -12,7 +12,7 @@ if first_number > 1 or second_number > 1:
 print(not true_value)
 print(not false_value)
 
-if not first_number > 1 and second_number < 10:
-    print('Both values pass the test')
+if first_number <= 1 and second_number < 10:
+    print("Both values pass the test")
 else:
-    print('Both values DO NOT pass the test')
+    print("Both values DO NOT pass the test")

@@ -1,11 +1,10 @@
-print('Enter player name')
+print("Enter player name")
 name = input()
-print('Spiel fortsetzen?')
+print("Spiel fortsetzen?")
 eingabe = input()
-if eingabe == 'j' or eingabe == 'ja':
-    print('Spiel startet, '+ name)
-elif eingabe == 'n' or eingabe == 'nein':
-    print('Spiel beendet, '+ name)
+if eingabe in ["j", "ja"]:
+    print(f"Spiel startet, {name}")
+elif eingabe in ["n", "nein"]:
+    print(f"Spiel beendet, {name}")
 else:
-    print('Falsche Eingabe, '+ name)
-
+    print(f"Falsche Eingabe, {name}")

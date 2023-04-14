@@ -1,4 +1,4 @@
-colors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'brown']
+colors = ["red", "green", "blue", "yellow", "orange", "purple", "brown"]
 
 # print(f'0-based indexing into the list ... second item: {colors[1]}')
 
@@ -6,17 +6,17 @@ colors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'brown']
 
 # print(f'Next to last item in the list: {colors[-2]}')
 
-print('\nPrint a SLICE, starting at index 2 and excluding index 5:')
+print("\nPrint a SLICE, starting at index 2 and excluding index 5:")
 print(colors[2:5])
 print(type(colors[2:5]))
 
-print('\nPrint a slice, starting at index 0 to index 3:')
+print("\nPrint a slice, starting at index 0 to index 3:")
 print(colors[:3])
 
-print('\nPrint a slice, starting a index 4 to the end of the list:')
+print("\nPrint a slice, starting a index 4 to the end of the list:")
 print(colors[4:])
 
-print('\nPrint a slice, from the 4th from the end (but not the last item):')
+print("\nPrint a slice, from the 4th from the end (but not the last item):")
 print(colors[-4:-1])
 
 colors.reverse()
@@ -27,15 +27,13 @@ print(colors)
 
 print(colors)
 
-colors.append('black')
-colors.append('white')
-
-colors.remove('yellow')
-colors.remove('orange')
+colors.extend(("black", "white"))
+colors.remove("yellow")
+colors.remove("orange")
 
 print(colors)
 
-new_colors = ['lime', 'gray']
+new_colors = ["lime", "gray"]
 colors.extend(new_colors)
 print(colors)
 

@@ -7,4 +7,4 @@ lunch = int(input())
 print("Dinner calories?")
 dinner = int(input())
 sum = breakfast + lunch + dinner
-print("Calories consumed on " + date + " " + str(sum))
+print(f"Calories consumed on {date} {str(sum)}")

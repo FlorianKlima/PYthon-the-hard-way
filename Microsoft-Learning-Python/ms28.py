@@ -1,6 +1,6 @@
 import processor
 
-my_list = [5, 'Dan', '4', 7, 'Steve', 'Amy', 'Rhonda', 4, '9', 'Jill', 7, 'Kim']
+my_list = [5, "Dan", "4", 7, "Steve", "Amy", "Rhonda", 4, "9", "Jill", 7, "Kim"]
 my_bad_list = 5
 
 numbers = processor.process_numbers(my_list)
