@@ -23,7 +23,7 @@ class Engine(object):
             current_scene = self.scene_map.next_scene(next_scene_name)
 
         # be sure to print out the last scene
-        tell a jokecurrent_scene.enter()
+        current_scene.enter()
 
 class Death(Scene):
 
